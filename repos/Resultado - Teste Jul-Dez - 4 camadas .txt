@@ -1,0 +1,28 @@
+4 Camadas Ocultas, cada camada com 100 neurônios e função de ativação 'relu',
+droput de 0.20, camada de saída função de ativação 'sigmoid'
+Otimizador RMSProp, 5000 iterações, tamanho de lote 500.,
+
+##########################################
+start_train = "2017-01-01"
+end_train = "2019-06-30"
+
+start_test = "2019-07-01"
+end_test = "2019-12-31"
+
+Treino:
+[[274   1]
+ [  3 344]]
+Acurácia: 0,99  
+Precisão: 1,00
+Sensibilidade: 0,99  
+Especificidade: 1,00 
+
+Teste:
+[[23 28]
+ [28 49]]
+Acurácia: 0,56
+Precisão: 0,64
+Sensibilidade: 0,64  
+Especificidade: 0,45 
+##########################################
+

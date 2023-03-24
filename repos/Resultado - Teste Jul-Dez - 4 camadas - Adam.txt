@@ -1,0 +1,28 @@
+4 Camadas Ocultas, cada camada com 100 neurônios e função de ativação 'relu',
+droput de 0.20, camada de saída função de ativação 'sigmoid'
+Otimizador Adam, 1000 iterações, tamanho de lote 500.
+
+##########################################
+start_train = "2017-01-01"
+end_train = "2019-06-30"
+
+start_test = "2019-07-01"
+end_test = "2019-12-31"
+
+Treino:
+[[139 136]
+ [ 55 292]]
+Acurácia: 0,69  
+Precisão: 0,68
+Sensibilidade: 0,84 
+Especificidade: 0,51 
+
+Teste:
+[[14 37]
+ [30 47]]
+Acurácia: 0,48
+Precisão: 0,56
+Sensibilidade: 0,61
+Especificidade: 0,27 
+##########################################
+

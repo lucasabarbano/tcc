@@ -1,0 +1,151 @@
+4 Camadas Ocultas, cada camada com 100 neurônios e função de ativação 'relu',
+droput de 0.20, camada de saída função de ativação 'sigmoid'
+Otimizador Nadam, 1000 iterações, tamanho de lote 100
+
+##########################################
+start_train = "2018-02-01"
+end_train = "2018-12-31"
+
+start_test = "2019-01-01"
+end_test = "2019-02-28"
+
+Treino:
+[[73 30]
+ [28 80]]
+Acurácia: 0,72  
+Precisão: 0,73
+Sensibilidade: 0,74  
+Especificidade: 0,70 
+
+Teste:
+[[5 8]
+ [11 16]]
+Acurácia: 0,52
+Precisão: 0,67
+Sensibilidade: 0,59  
+Especificidade: 0,38 
+##########################################
+
+##########################################
+start_train = "2018-05-01"
+end_train = "2019-02-28"
+
+start_test = "2019-03-01"
+end_test = "2019-04-30"
+
+Treino:
+[[87 10]
+ [11 101]]
+Acurácia: 0,90 
+Precisão: 0,91
+Sensibilidade: 0,90 
+Especificidade: 0,90 
+
+
+Teste:
+[[ 7 10]
+ [10 15]]
+Acurácia: 0,52
+Precisão: 0,60
+Sensibilidade: 0,60 
+Especificidade: 0,41
+##########################################
+
+
+##########################################
+start_train = "2018-07-01"
+end_train = "2019-04-30"
+
+start_test = "2019-05-01"
+end_test = "2019-06-30"
+
+Treino:
+[[65 30]
+ [27 86]]
+Acurácia: 0,72
+Precisão: 0,74
+Sensibilidade: 0,76 
+Especificidade: 0,68
+
+
+Teste:
+[[10 10]
+ [11 10]]
+Acurácia: 0,49
+Precisão: 0,50
+Sensibilidade: 0,47 
+Especificidade: 0,50
+##########################################
+
+##########################################
+start_train = "2018-09-01"
+end_train = "2019-06-30"
+
+start_test = "2019-07-01"
+end_test = "2019-08-31"
+
+Treino:
+[[83 14]
+ [9 99]]
+Acurácia: 0,89
+Precisão: 0,85
+Sensibilidade: 0,92 
+Especificidade: 0,85
+
+
+Teste:
+[[10 10]
+ [ 9 15]]
+Acurácia: 0,57
+Precisão: 0,60 
+Sensibilidade: 0,62 
+Especificidade: 0,50
+##########################################
+
+##########################################
+start_train = "2018-11-01"
+end_train = "2019-08-30"
+
+start_test = "2019-09-01"
+end_test = "2019-10-31"
+
+Treino:
+[[91 1]
+ [ 2 113]]
+Acurácia: 0,98
+Precisão: 0,99
+Sensibilidade: 0,98 
+Especificidade: 0,99
+
+Teste:
+[[ 7 11]
+ [ 9 16]]
+Acurácia: 0,53
+Precisão: 0,59
+Sensibilidade: 0,64 
+Especificidade: 0,39
+##########################################
+
+##########################################
+start_train = "2019-01-01"
+end_train = "2019-10-31"
+
+start_test = "2019-11-01"
+end_test = "2019-12-31"
+
+Treino:
+[[ 87  1]
+ [  2 120]]
+Acurácia: 0,98
+Precisão: 0,99
+Sensibilidade: 0,98 
+Especificidade: 0,99
+
+Teste:
+[[ 6  7]
+ [10 18]]
+Acurácia: 0,58
+Precisão: 0,72
+Sensibilidade: 0,64 
+Especificidade: 0,46
+##########################################
